@@ -16,6 +16,13 @@ html {
      justify-content: center;
      align-items: center;
 }
+.flex_col{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+}
+/**tools end*/
 
 button,input{
      background:none;
@@ -35,7 +42,12 @@ a:active{
 li{
      list-style:none;
 }
-img{
+img,
+{
      max-width: 100%;
      height: auto;
 }
+
+
+
+
