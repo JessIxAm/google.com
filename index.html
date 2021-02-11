@@ -22,15 +22,52 @@
      <link rel="shortcut icon" href="images/googleicon.png" type="image/x-icon">
      <!-- stylesheets -->
      <link rel="stylesheet" href="css/template.css">
+     <!-- <link rel="stylesheet" href="css/dot.css"> -->
      <link rel="stylesheet" href="css/header.css">
      <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="flex">
-     <main class="flex_col">
-          <div class="logo_container flex">
-               <img id="logo" src="images/googlelogo.png" alt="google coloured logo ">
+<body class="flex_col">
+     <!-- HEADER -->
+     <header id="header" class="flex">
+          <div class="menu_toggler_container flex">
+               <input type="checkbox" id="menu_checkbox">
+
+               <!-- Just for fun -->
+               <!-- 1 -->
+               <div class="for_fun_1 flex_col">
+                    <h3>Ooops</h3>
+                    <h3>No</h3>
+                    <h3>Menu !</h3>
+               </div>
+               <!-- 1 end -->
+
+               <label class="flex" for="menu_checkbox">
+                    <!--<span class="menu_toggler"></span> -->
+                    <svg style="fill:#70757a;" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-iml="1613034902338">
+                         <path d="M0 0h24v24H0z" fill="none"></path>
+                         <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+                    </svg>
+               </label>
           </div>
+          <a href="#" class="alle active">ALLE</a>
+          <!--index.html-->
+          <a href="#" class="bilder active">BILDER</a>
+          <!-- https://www.google.de/imghp?hl=de&authuser=0&ogbl -->
+          <a class="google_apps flex" href="#">
+               <svg style="fill:#70757a; width:24px; height:24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-iml="1613034902338">
+                    <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path>
+               </svg>
+          </a>
+
+          <div class="profile flex">F</div>
+     </header>
+
+     <!-- MAIN -->
+     <main class="flex_col">
+          <a href="https://github.com/jessixam" target="_blank" title="Easter Egg" class="logo_container flex">
+               <img id="logo" src="images/googlelogo.png" alt="google coloured logo ">
+          </a>
           <form class="flex_col mg-b1 " action="https://cutt.ly/jkR0dMl">
 
                <div class="search_container flex mg-b2">
@@ -48,7 +85,7 @@
                     <input type="text">
 
                     <!-- <img src="images/mic.svg" alt="google mic icon"> -->
-                    <span class="flex"><svg class="HPVvwb" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <span class="span_svg flex"><svg class="HPVvwb" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                               <path d="m12 15c1.66 0 3-1.31 3-2.97v-7.02c0-1.66-1.34-3.01-3-3.01s-3 1.34-3 3.01v7.02c0 1.66 1.34 2.97 3 2.97z" fill="#4285f4"></path>
                               <path d="m11 18.08h2v3.92h-2z" fill="#34a853"></path>
                               <path d="m7.05 16.87c-1.27-1.33-2.05-2.83-2.05-4.87h2c0 1.45 0.56 2.42 1.47 3.38v0.32l-1.15 1.18z" fill="#f4b400"></path>
@@ -68,6 +105,7 @@
                <p>Heute ist Safer Internet Day. <a class="infos_link" href="https://www.google.com/url?q=https://safety.google/%3Futm_medium%3Dhpp%26utm_source%3Dgoogle%26utm_campaign%3Dsid2021&source=hpp&id=19022673&ct=3&usg=AFQjCNGqSJKpDdbBgetUe09HUMLjNMieSQ&sa=X&ved=0ahUKEwiE4KDmk97uAhUd6OAKHU-VCmMQ8IcBCBA">Erfahren Sie, wie Google Ihre Daten schützt</a> </p>
           </div>
      </main>
+
 </body>
 
 </html>

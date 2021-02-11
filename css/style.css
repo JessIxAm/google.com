@@ -2,9 +2,12 @@ html{
      font-family: Arial, Helvetica, 'Roboto', sans-serif;
 }
 body{
-     height:100vh;
+     /* height:100vh; */
      width: 100vw;
      color: lightgray;
+
+     justify-content: flex-start
+     ;
 }
 /**COMMON USED**/
 .mg-b1{
@@ -21,11 +24,11 @@ body{
 
 /**MAIN*/
 main{
-     width: 98%;
+     width: 100%;
      max-width: 736px;
 
-     margin: 0vmin auto 0;  /* todo change it.*/
-     padding:1rem;
+     margin-top: calc(2rem + 2vw);  /* todo change it.*/
+     padding:1rem .5rem;
 
 }
      /*--> logo container div*/
@@ -44,12 +47,12 @@ main{
      main form{
           width: 100%;
           height: fit-content;
-          padding: 1rem;
+          padding: 1rem .5rem;
      }
 
      /*----> search_container div*/
      form .search_container{
-          width: 96%;
+          width: 100%;
           min-width: 300px;                              /* height: calc(1rem + .4vw); */
           height: 45px;
 
@@ -89,7 +92,7 @@ main{
           width: 40px;
           height: 60%;
      }
-     span::after{
+     .span_svg::after{
           content: 'Sprachsuche';
           font-size: .7rem;
           color: #d3d3d3;
@@ -104,21 +107,21 @@ main{
           display: flex;
           justify-content: center;
           align-items: center;
-          
+
           position: absolute;
           opacity: 0;
 
           transition: all .5s ease-in;
 
      }
-     span:hover::after{
+     .span_svg:hover::after{
           opacity: 1;
      }
 
 
 
      .search_container input{
-          flex-basis: 86%;
+          flex-basis: 94%;
           cursor: text;
           height: 70%;
           font-size: calc(.9rem + .2vw);
